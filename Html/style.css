@@ -1,0 +1,24 @@
+
+/* 
+    
+*/
+/* H etiketlerine varsayılan özellik ekleme */
+h1,h2,h3,h4,h5,h6{
+    color: brown;
+}
+/* genel kullanımlı class tanımlama */
+.text-red{
+    color:red;
+}
+/* ID tanımlama */
+#fs-30{
+    font-size: 30px;
+}
+/* css selector özelliği */
+li:nth-child(2){
+    background: red;
+}
+.bg-color{
+    background-color: cadetblue;
+}
+

@@ -1,0 +1,38 @@
+<!-- <!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Site</title>
+    External Css
+    <link rel="stylesheet" href="style.css">
+
+     Internal Css 
+     <style>
+        h2 {
+            color: red;
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+   <h2>CSS Deneme</h2>
+   <p class="text-red">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, obcaecati?</p>
+   <p class="text-red" id="fs-30" style="color: blue;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, vel!</p>
+   <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, eum.</h1>
+   <h2>Unde repudiandae obcaecati doloremque expedita nesciunt. Nostrum cupiditate voluptas quod?</h2>
+   <h3>Ducimus minus, sequi voluptates ex praesentium quo reiciendis facilis mollitia.</h3>
+   <h4>Totam iure harum in suscipit labore facilis repellat, assumenda modi?</h4>
+   <h5>Nisi repellat magni possimus molestias, debitis dicta harum explicabo labore!</h5>
+   <h6>Voluptatibus accusantium tempora nam numquam illo consequuntur quidem recusandae deserunt.</h6>
+    <ul>
+        <li>Lorem ipsum dolor sit amet consectetur.</li>
+        <li>Doloribus doloremque perferendis ea unde quam.</li>
+        <li>Ipsum doloremque praesentium totam eum quia.</li>
+        <li>Beatae deserunt laborum in delectus aliquam!</li>
+        <li>Officia soluta unde cupiditate ea. Libero.</li>
+        <li>Totam cumque at qui itaque sequi.</li>
+    </ul>
+</body>
+</html> -->
