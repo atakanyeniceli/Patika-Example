@@ -1,0 +1,26 @@
+.margin-auto{
+    display: block;
+    margin: auto;
+}
+
+.search-div{
+    background-color:#EEEEEE;
+    height: 75px;
+    margin:3px 50px;
+}
+
+.table-margin{
+    margin: 3px 50px;
+}
+.special-td{
+    background-color:#7EE5DA;
+    width: 37%;
+}
+
+.help-td{
+    background-color: #70CCC2;
+}
+
+.sub-td{
+    
+}
