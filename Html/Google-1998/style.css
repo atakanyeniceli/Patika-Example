@@ -7,28 +7,35 @@
     background-color:#EEEEEE;
     height: 75px;
     margin:3px 50px;
+    text-align: center;
 }
 
 .menuMain-div{
     margin:auto 50px;
+    height: 100px;
 }
 .left-div{
     background-color: #7EE5DA;
-    width: 33%;
-    height:auto;
+    width: 33.3%;
     float: left;
-    margin-right: 8px;
+    height: 100%;
+    text-align: center;
 }
 .mid-div{
     background-color: #70CCC2;
-    width: 33%;
+    width: 33.3%;
     float: left;
-    margin-right: 8px;
+    height: 100%;
+    text-align: center;
 }
 .right-div{
     background-color: #62B3AA;
-    width: 33%;
-    height:auto;
+    width: 33.4%;
     float: left;
+    height: 100%;
+    text-align: center;
+}
+input{
+    text-align: center;
 }
 
