@@ -1,0 +1,9 @@
+.img-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+}
+.img-self{
+    position: relative;
+}
