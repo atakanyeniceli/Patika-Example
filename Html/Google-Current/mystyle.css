@@ -1,9 +1,16 @@
-.img-div{
+.main-div{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 500px;
 }
-.img-self{
-    position: relative;
+
+.img-div{
+    
+}
+
+.search-div{
+    border: 1px solid;
+    height: 50px;
+    width: auto;
+    max-width: 580px;
 }
