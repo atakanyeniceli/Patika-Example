@@ -1,4 +1,5 @@
 .main-div{
+    margin-top: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,13 +8,39 @@
 .search-div{
     border: 1px solid #d4d6da;
     border-radius: 15px;
-    height: 50px;
+    height: 35px;
     width: 100%;
     max-width: 580px;
 }
 
 .search-icon{
+    float:left;
+    margin:5px auto;
 }
+
+.input-div{
+    margin:2px auto;
+    height: 100%;
+    width: 90%;
+    float: left;
+}
+.input-self{
+    border: none;
+    outline: none;
+    height: 80%;
+    width: 100%;
+}
+
 .mic-icon{
+   float:left;
+   margin: 5px auto;
+}
+
+.button-maindiv{
+    margin-top: 30px;
+}
+
+.search-button{
+
 }
 
