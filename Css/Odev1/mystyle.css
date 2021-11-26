@@ -1,0 +1,30 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    max-width:auto;
+    height: auto;
+}
+.title-div{
+    text-align: center;
+    font-size: 70px;
+    color: #5D40AEDF;
+    max-width: 50%;
+}
+.subtitle-div{
+    font-size: 30px;
+    color: #331c2d;
+}
+
+
+.menu-div{
+    max-width: 50%;
+}
+.menu-title{
+    list-style-type:none;
+    align-items: flex-end;
+}
+.menu-title li{
+    display: inline;
+    margin: 10px;
+}
