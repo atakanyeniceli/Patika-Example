@@ -8,16 +8,15 @@
 
 /*Region Title */
 .title-div{
-    text-align: end;
-    font-size: 70px;
+    padding-left: 15%;
+    width: 100%;
+    text-align: center;
+    font-size:70px;
     color: #5D40AEDF;
-    flex: 50%;
 }
-.subtitle-div{
-    font-size: 30px;
+.rank-div{
     color: #331c2d;
-    text-align: end;
-    max-width: 90%;
+    font-size:20px;
 }
 /* End region */
 
@@ -26,37 +25,72 @@
 /* Region Menu */
 .menu-div{
     flex: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 2%;
 }
 .menu-title{
-    list-style-type:none;
-    text-align: center;
-    padding-top: 2%;
+    list-style-type:disc;
 }
 .menu-title li{
-    display: inline;
-    padding: 10px;
+    display: block;
+    float: left;
+    padding-right:10px;
+}
+.menu-title li a{
+    text-decoration:inherit;
+    color:inherit;
+}
+#contact:active~div#row-icon{
+    background-color: red;
+}
+#graduation:active{
+    background-color: red;
+}
+#experience:active{
+    background-color: red;
 }
 /* End Region */
 
 
 
-
-/* Region Github Icon */
-.image-div{
+/* Region Github-LinkedIn  Icon */
+.iconrow-div{
     flex: 50%;
+    display: flex;
+    justify-content: center;
 }
-.github-div{
-    display: block;
-    align-items: center;
-    height:200px; 
-    width:200px;
+.icon-div{
+    height:150px; 
+    width:150px;
+    text-align: center;
 }
-.image-github{
+.icon-size{
     display: block;
     width: 100%;
     height: auto;
 }
-
-
+.github-hover{
+    opacity: 0;
+    font-size: 12px;
+}
+.linkedin-hover{
+    opacity: 0;
+    font-size: 12px;
+    text-align: start;
+}
+.icon-div:hover div{
+    opacity: 1;
+}
 /* End Region */
+
+
+/* Region Education */
+.education-div{
+    flex: 100%;
+}
+/* End Region */
+
+
 
