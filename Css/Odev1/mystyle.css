@@ -43,21 +43,20 @@
 
 /* Region Github Icon */
 .image-div{
-    float: left;
     flex: 50%;
-    text-align: center;
+}
+.github-div{
+    display: block;
+    align-items: center;
+    height:200px; 
+    width:200px;
 }
 .image-github{
-    height:auto; 
-    width:100%;
-}
-.github-hover{
-    opacity: 0;
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
-.image-github:hover .github-hover{
-    opacity: 1;
-}
 
 /* End Region */
 
