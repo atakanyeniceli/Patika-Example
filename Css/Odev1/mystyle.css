@@ -20,40 +20,6 @@
 /* End region */
 
 
-
-/* Region Menu */
-.menu-div{
-    flex: 30%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-bottom: 2%;
-}
-.menu-title{
-    list-style-type:disc;
-}
-.menu-title li{
-    display: block;
-    float: left;
-    padding-right:10px;
-}
-.menu-title li a{
-    text-decoration:inherit;
-    color:inherit;
-}
-#contact:active~div#row-icon{
-    background-color: red;
-}
-#graduation:active{
-    background-color: red;
-}
-#experience:active{
-    background-color: red;
-}
-/* End Region */
-
-
-
 /* Region Github-LinkedIn  Icon */
 .iconrow-div{
     justify-content: space-around;
@@ -98,7 +64,16 @@ div#education-title{
     color: #9436b3;
 }
 .underline{
-    width: 25%;
+    width: 34%;
+}
+/* End Region */
+
+
+/* Region Experince */
+div#experince-title{
+    font-size: 50px;
+    justify-content: center;
+    color: #517ccc;
 }
 /* End Region */
 
