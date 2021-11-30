@@ -54,18 +54,24 @@
 
 
 /* Region Education */
+.education-div{
+    justify-content:space-evenly;
+    text-align: center;
+}
 div#education-title{
     font-size: 50px;
     justify-content: center;
     color: #9436b3;
 }
-.education-div div{
-    float: left;
+.underline{
+    width: 34%;
 }
-.education-div{
-    justify-content: space-around;
+.underline div{
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-
 /* End Region */
 
 
