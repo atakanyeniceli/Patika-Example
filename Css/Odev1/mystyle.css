@@ -55,16 +55,16 @@
 
 /* Region Education */
 .education-div{
-    justify-content:space-evenly;
     text-align: center;
+    justify-content: space-around;
 }
 div#education-title{
     font-size: 50px;
     justify-content: center;
     color: #9436b3;
 }
-.underline{
-    width: 34%;
+.underline div{
+    height: 25%;
 }
 /* End Region */
 
