@@ -60,13 +60,13 @@ div#education-title{
     color: #9436b3;
 }
 .education-information{
-    width: 100%;
+    flex: 100%;
     text-align: center;
 }
-.education-information div{
+.underline{
     border-bottom: 1px solid;
-    height: 100%;
 }
+
 /* End Region */
 
 
@@ -75,7 +75,7 @@ div#education-title{
 div#experince-title{
     font-size: 50px;
     justify-content: center;
-    color: #517ccc;
+    color: #9436b3;
 }
 /* End Region */
 
