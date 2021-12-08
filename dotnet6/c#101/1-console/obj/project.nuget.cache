@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "oaKqID5FdZM+2OK0Fc0/5yQYRH7Gc3GdLMA5Q9QiT62gOsFTN1VLnhNswo1n68WpGPnRndKJfLZeEgojNU4XnA==",
+  "dgSpecHash": "7DqrVJ/oEwUCM0J0h4xMxGj/2ZZLyZf1skcvXY8sWHe8UbA8Ld5IT1FlzxSGbW+A/Tjc8ugC5P/m4Hxkf75Xfw==",
   "success": true,
   "projectFilePath": "C:\\Users\\atakan\\OneDrive\\Desktop\\Patika-Example\\dotnet6\\c#101\\1-console\\1-console.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\atakan\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
   "logs": []
 }
