@@ -1,0 +1,15 @@
+C:\Users\atakan\OneDrive\Desktop\Patika-Example\dotnet5\c#101\1-console\bin\Debug\net6.0\1-console.exe
+C:\Users\atakan\OneDrive\Desktop\Patika-Example\dotnet5\c#101\1-console\bin\Debug\net6.0\1-console.deps.json
+C:\Users\atakan\OneDrive\Desktop\Patika-Example\dotnet5\c#101\1-console\bin\Debug\net6.0\1-console.runtimeconfig.json
+C:\Users\atakan\OneDrive\Desktop\Patika-Example\dotnet5\c#101\1-console\bin\Debug\net6.0\1-console.dll
+C:\Users\atakan\OneDrive\Desktop\Patika-Example\dotnet5\c#101\1-console\bin\Debug\net6.0\ref\1-console.dll
+C:\Users\atakan\OneDrive\Desktop\Patika-Example\dotnet5\c#101\1-console\bin\Debug\net6.0\1-console.pdb
+C:\Users\atakan\OneDrive\Desktop\Patika-Example\dotnet5\c#101\1-console\obj\Debug\net6.0\1-console.csproj.AssemblyReference.cache
+C:\Users\atakan\OneDrive\Desktop\Patika-Example\dotnet5\c#101\1-console\obj\Debug\net6.0\1-console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\atakan\OneDrive\Desktop\Patika-Example\dotnet5\c#101\1-console\obj\Debug\net6.0\1-console.AssemblyInfoInputs.cache
+C:\Users\atakan\OneDrive\Desktop\Patika-Example\dotnet5\c#101\1-console\obj\Debug\net6.0\1-console.AssemblyInfo.cs
+C:\Users\atakan\OneDrive\Desktop\Patika-Example\dotnet5\c#101\1-console\obj\Debug\net6.0\1-console.csproj.CoreCompileInputs.cache
+C:\Users\atakan\OneDrive\Desktop\Patika-Example\dotnet5\c#101\1-console\obj\Debug\net6.0\1-console.dll
+C:\Users\atakan\OneDrive\Desktop\Patika-Example\dotnet5\c#101\1-console\obj\Debug\net6.0\ref\1-console.dll
+C:\Users\atakan\OneDrive\Desktop\Patika-Example\dotnet5\c#101\1-console\obj\Debug\net6.0\1-console.pdb
+C:\Users\atakan\OneDrive\Desktop\Patika-Example\dotnet5\c#101\1-console\obj\Debug\net6.0\1-console.genruntimeconfig.cache
