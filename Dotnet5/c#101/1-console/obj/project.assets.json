@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\atakan\\OneDrive\\Desktop\\Patika-Example\\dotnet6\\c#101\\1-console\\1-console.csproj",
+      "projectUniqueName": "C:\\Users\\atakan\\OneDrive\\Desktop\\Patika-Example\\Dotnet5\\c#101\\1-console\\1-console.csproj",
       "projectName": "1-console",
-      "projectPath": "C:\\Users\\atakan\\OneDrive\\Desktop\\Patika-Example\\dotnet6\\c#101\\1-console\\1-console.csproj",
+      "projectPath": "C:\\Users\\atakan\\OneDrive\\Desktop\\Patika-Example\\Dotnet5\\c#101\\1-console\\1-console.csproj",
       "packagesPath": "C:\\Users\\atakan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\atakan\\OneDrive\\Desktop\\Patika-Example\\dotnet6\\c#101\\1-console\\obj\\",
+      "outputPath": "C:\\Users\\atakan\\OneDrive\\Desktop\\Patika-Example\\Dotnet5\\c#101\\1-console\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
