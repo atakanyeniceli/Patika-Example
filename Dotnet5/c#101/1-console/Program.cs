@@ -23,7 +23,7 @@ namespace _1_console
             //ListEx();
 
             //ArrayEx();
-            //Console.WriteLine((int)myDays.Pazartesi);
+            Console.WriteLine((int)myDays.Pazartesi);
             Bear animal1=new Bear();
             Console.WriteLine(animal1.Sound());
             Console.WriteLine(animal1.Eat2());
