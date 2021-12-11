@@ -20,10 +20,14 @@ namespace _1_console
             // Console.WriteLine(sayi+"atakan");
             // Console.WriteLine(sayi.ToString()+"atakan");
 
-            ListEx();
+            //ListEx();
 
-            ArrayEx();
-            
+            //ArrayEx();
+            //Console.WriteLine((int)myDays.Pazartesi);
+            Bear animal1=new Bear();
+            Console.WriteLine(animal1.Sound());
+            Console.WriteLine(animal1.Eat2());
+            Console.WriteLine(animal1.Walk());
         }
          static void Deneme(){
             Console.WriteLine("deneme method çalıştı");
@@ -41,15 +45,6 @@ namespace _1_console
             myArray.Add(true);
             myArray.Add(1);
             myArray.Add('a');
-        }
-        enum myEnum{
-            pazartesi,
-            sali,
-            carsamba,
-            persembe,
-            cuma,
-            cumartesi,
-            pazar
         }
     }
 }
