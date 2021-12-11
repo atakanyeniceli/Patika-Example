@@ -12,7 +12,6 @@ namespace console_2Odev
             Collection1(myNumberArray);
             Collection2(myNumberArray);
             LetterCollectionAccu();
-
         }
 
         static void NumberCollectionAccu(ref List<int> rep){
@@ -60,7 +59,6 @@ namespace console_2Odev
 
             Console.WriteLine($"En Küçük Sayıların Ortalaması: {smallest.Average()} En Büyük Sayıların Ortalaması: {biggest.Average()}  Ortalamaların Toplamları: {smallest.Average()+biggest.Average()}");
         }
-        
         static void LetterCollectionAccu(){
             List<char> myVowelArray=new List<char>(){'a','e','i','o','u'};
             List<char> vowelDetec=new List<char>();

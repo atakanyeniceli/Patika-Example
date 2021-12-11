@@ -1,0 +1,16 @@
+C:\Users\ataka\Desktop\Patika-Example\Dotnet5\c#101\phoneList\obj\Debug\net5.0\phoneList.csprojAssemblyReference.cache
+C:\Users\ataka\Desktop\Patika-Example\Dotnet5\c#101\phoneList\obj\Debug\net5.0\phoneList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ataka\Desktop\Patika-Example\Dotnet5\c#101\phoneList\obj\Debug\net5.0\phoneList.AssemblyInfoInputs.cache
+C:\Users\ataka\Desktop\Patika-Example\Dotnet5\c#101\phoneList\obj\Debug\net5.0\phoneList.AssemblyInfo.cs
+C:\Users\ataka\Desktop\Patika-Example\Dotnet5\c#101\phoneList\obj\Debug\net5.0\phoneList.csproj.CoreCompileInputs.cache
+C:\Users\ataka\Desktop\Patika-Example\Dotnet5\c#101\phoneList\bin\Debug\net5.0\phoneList.exe
+C:\Users\ataka\Desktop\Patika-Example\Dotnet5\c#101\phoneList\bin\Debug\net5.0\phoneList.deps.json
+C:\Users\ataka\Desktop\Patika-Example\Dotnet5\c#101\phoneList\bin\Debug\net5.0\phoneList.runtimeconfig.json
+C:\Users\ataka\Desktop\Patika-Example\Dotnet5\c#101\phoneList\bin\Debug\net5.0\phoneList.runtimeconfig.dev.json
+C:\Users\ataka\Desktop\Patika-Example\Dotnet5\c#101\phoneList\bin\Debug\net5.0\phoneList.dll
+C:\Users\ataka\Desktop\Patika-Example\Dotnet5\c#101\phoneList\bin\Debug\net5.0\ref\phoneList.dll
+C:\Users\ataka\Desktop\Patika-Example\Dotnet5\c#101\phoneList\bin\Debug\net5.0\phoneList.pdb
+C:\Users\ataka\Desktop\Patika-Example\Dotnet5\c#101\phoneList\obj\Debug\net5.0\phoneList.dll
+C:\Users\ataka\Desktop\Patika-Example\Dotnet5\c#101\phoneList\obj\Debug\net5.0\ref\phoneList.dll
+C:\Users\ataka\Desktop\Patika-Example\Dotnet5\c#101\phoneList\obj\Debug\net5.0\phoneList.pdb
+C:\Users\ataka\Desktop\Patika-Example\Dotnet5\c#101\phoneList\obj\Debug\net5.0\phoneList.genruntimeconfig.cache
