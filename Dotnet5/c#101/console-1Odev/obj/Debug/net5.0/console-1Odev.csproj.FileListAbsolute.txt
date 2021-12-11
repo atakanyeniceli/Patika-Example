@@ -1,0 +1,16 @@
+C:\Users\ataka\Desktop\Patika-Example\Dotnet5\c#101\console-1Odev\obj\Debug\net5.0\console-1Odev.csprojAssemblyReference.cache
+C:\Users\ataka\Desktop\Patika-Example\Dotnet5\c#101\console-1Odev\obj\Debug\net5.0\console-1Odev.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ataka\Desktop\Patika-Example\Dotnet5\c#101\console-1Odev\obj\Debug\net5.0\console-1Odev.AssemblyInfoInputs.cache
+C:\Users\ataka\Desktop\Patika-Example\Dotnet5\c#101\console-1Odev\obj\Debug\net5.0\console-1Odev.AssemblyInfo.cs
+C:\Users\ataka\Desktop\Patika-Example\Dotnet5\c#101\console-1Odev\obj\Debug\net5.0\console-1Odev.csproj.CoreCompileInputs.cache
+C:\Users\ataka\Desktop\Patika-Example\Dotnet5\c#101\console-1Odev\bin\Debug\net5.0\console-1Odev.exe
+C:\Users\ataka\Desktop\Patika-Example\Dotnet5\c#101\console-1Odev\bin\Debug\net5.0\console-1Odev.deps.json
+C:\Users\ataka\Desktop\Patika-Example\Dotnet5\c#101\console-1Odev\bin\Debug\net5.0\console-1Odev.runtimeconfig.json
+C:\Users\ataka\Desktop\Patika-Example\Dotnet5\c#101\console-1Odev\bin\Debug\net5.0\console-1Odev.runtimeconfig.dev.json
+C:\Users\ataka\Desktop\Patika-Example\Dotnet5\c#101\console-1Odev\bin\Debug\net5.0\console-1Odev.dll
+C:\Users\ataka\Desktop\Patika-Example\Dotnet5\c#101\console-1Odev\bin\Debug\net5.0\ref\console-1Odev.dll
+C:\Users\ataka\Desktop\Patika-Example\Dotnet5\c#101\console-1Odev\bin\Debug\net5.0\console-1Odev.pdb
+C:\Users\ataka\Desktop\Patika-Example\Dotnet5\c#101\console-1Odev\obj\Debug\net5.0\console-1Odev.dll
+C:\Users\ataka\Desktop\Patika-Example\Dotnet5\c#101\console-1Odev\obj\Debug\net5.0\ref\console-1Odev.dll
+C:\Users\ataka\Desktop\Patika-Example\Dotnet5\c#101\console-1Odev\obj\Debug\net5.0\console-1Odev.pdb
+C:\Users\ataka\Desktop\Patika-Example\Dotnet5\c#101\console-1Odev\obj\Debug\net5.0\console-1Odev.genruntimeconfig.cache
