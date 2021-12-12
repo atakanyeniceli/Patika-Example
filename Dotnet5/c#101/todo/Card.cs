@@ -1,8 +1,7 @@
 class Card{
     string title=string.Empty;
     string contents=string.Empty;
-    string authorPerson=string.Empty;
-    SizeEnum size=null;
+    SizeEnum size=0;
 
     public string Title { 
         get{return this.title;} 
@@ -12,17 +11,14 @@ class Card{
         get{return this.contents;} 
         set{this.contents=value;} 
     }
-    public string AuthorPerson { 
-        get{return this.authorPerson;} 
-        set{this.authorPerson=value;} 
-    }
     public SizeEnum Size { 
         get{return this.size;} 
         set{this.size=value;} 
     }
-
-    public override string ToString()
+    public Card(string _title, string _contents, SizeEnum _size)
     {
-        return $"Title:{this.title}\nContents:{this.contents}\nAuthorPerson{this.authorPerson}\nSize:{this.size}";
+        this.title=_title;
+        this.contents=_contents;
+        this.size=_size;
     }
 }
