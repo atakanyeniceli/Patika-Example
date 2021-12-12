@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "console-2Odev", "console-2O
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "phoneList", "phoneList\phoneList.csproj", "{4C047058-09F9-4677-A69A-94C943E3667B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "todo", "todo\todo.csproj", "{4C0CD7A6-AF14-485D-B6CE-496015EB5D72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{4C047058-09F9-4677-A69A-94C943E3667B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C047058-09F9-4677-A69A-94C943E3667B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C047058-09F9-4677-A69A-94C943E3667B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C0CD7A6-AF14-485D-B6CE-496015EB5D72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C0CD7A6-AF14-485D-B6CE-496015EB5D72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C0CD7A6-AF14-485D-B6CE-496015EB5D72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C0CD7A6-AF14-485D-B6CE-496015EB5D72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

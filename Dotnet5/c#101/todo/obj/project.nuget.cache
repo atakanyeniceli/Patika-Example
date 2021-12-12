@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "TG9wxXBOh8phyb7goR9rnp41aGVFs95Xn7z5ZU2R0KjoX2SMeDV2X4nG34wUtnd44xWcs9d1zSYFS1KA0KDW6A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\atakan\\OneDrive\\Desktop\\Patika-Example\\Dotnet5\\c#101\\todo\\todo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\atakan\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
