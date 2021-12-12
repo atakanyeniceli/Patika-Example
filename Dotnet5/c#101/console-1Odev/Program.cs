@@ -19,7 +19,7 @@ namespace console_1Odev
                         i++;
                     }
                 }
-                catch(Exception e){}
+                catch{}
             }
             myArray.ForEach(item => Console.Write(item%2 == 0 ? item.ToString()+'-' :null));
         }

@@ -31,4 +31,8 @@ class Person{
         this.age=_age;
         this.phoneNummber=_phoneNumber;
     }
+    public override string ToString()
+    {
+        return $"Ad:{this.firstName}\nSoyad:{this.lastName}\nYas:{this.age}\nTelefon Numarası:{this.phoneNummber}";
+    }
 }
