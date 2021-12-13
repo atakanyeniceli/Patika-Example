@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "phoneList", "phoneList\phon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "todo", "todo\todo.csproj", "{4C0CD7A6-AF14-485D-B6CE-496015EB5D72}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-webApi", "2-webApi\2-webApi.csproj", "{7A3A58BE-8451-415A-A79A-4D992C6B7C7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,13 @@ Global
 		{4C0CD7A6-AF14-485D-B6CE-496015EB5D72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C0CD7A6-AF14-485D-B6CE-496015EB5D72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C0CD7A6-AF14-485D-B6CE-496015EB5D72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05B14DF3-D6EA-4B39-9C4F-9252DAA06665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05B14DF3-D6EA-4B39-9C4F-9252DAA06665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05B14DF3-D6EA-4B39-9C4F-9252DAA06665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05B14DF3-D6EA-4B39-9C4F-9252DAA06665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A3A58BE-8451-415A-A79A-4D992C6B7C7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A3A58BE-8451-415A-A79A-4D992C6B7C7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A3A58BE-8451-415A-A79A-4D992C6B7C7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A3A58BE-8451-415A-A79A-4D992C6B7C7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
