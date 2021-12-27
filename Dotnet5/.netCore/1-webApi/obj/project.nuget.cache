@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pgYpq2t4E5aENBpoQWOgiDsfeMqMRxZLrpA/Fy97C9GJWnZUaiiVy2c8ysYR/n9pxDzekwlhmp6NyDpFzFSwiQ==",
+  "dgSpecHash": "KHdb+bJo7pNa9P2TWmvA33HiCxjTR/2x1pVYRn88rHl8Vd7WUXK2QtybA454avwhYGVmtt4hJdECpgV4cKH4gg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\atakan\\OneDrive\\Desktop\\Patika-Example\\Dotnet5\\c#101\\2-webApi\\2-webApi.csproj",
+  "projectFilePath": "C:\\Users\\atakan\\OneDrive\\Desktop\\Patika-Example\\Dotnet5\\.netCore\\1-webApi\\1-webApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\atakan\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\atakan\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

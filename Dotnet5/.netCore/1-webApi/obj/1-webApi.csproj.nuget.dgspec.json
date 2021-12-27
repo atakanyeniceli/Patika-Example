@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\atakan\\OneDrive\\Desktop\\Patika-Example\\Dotnet5\\c#101\\2-webApi\\2-webApi.csproj": {}
+    "C:\\Users\\atakan\\OneDrive\\Desktop\\Patika-Example\\Dotnet5\\.netCore\\1-webApi\\1-webApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\atakan\\OneDrive\\Desktop\\Patika-Example\\Dotnet5\\c#101\\2-webApi\\2-webApi.csproj": {
+    "C:\\Users\\atakan\\OneDrive\\Desktop\\Patika-Example\\Dotnet5\\.netCore\\1-webApi\\1-webApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\atakan\\OneDrive\\Desktop\\Patika-Example\\Dotnet5\\c#101\\2-webApi\\2-webApi.csproj",
-        "projectName": "2-webApi",
-        "projectPath": "C:\\Users\\atakan\\OneDrive\\Desktop\\Patika-Example\\Dotnet5\\c#101\\2-webApi\\2-webApi.csproj",
+        "projectUniqueName": "C:\\Users\\atakan\\OneDrive\\Desktop\\Patika-Example\\Dotnet5\\.netCore\\1-webApi\\1-webApi.csproj",
+        "projectName": "1-webApi",
+        "projectPath": "C:\\Users\\atakan\\OneDrive\\Desktop\\Patika-Example\\Dotnet5\\.netCore\\1-webApi\\1-webApi.csproj",
         "packagesPath": "C:\\Users\\atakan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\atakan\\OneDrive\\Desktop\\Patika-Example\\Dotnet5\\c#101\\2-webApi\\obj\\",
+        "outputPath": "C:\\Users\\atakan\\OneDrive\\Desktop\\Patika-Example\\Dotnet5\\.netCore\\1-webApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
