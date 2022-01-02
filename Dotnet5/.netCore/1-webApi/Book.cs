@@ -7,7 +7,7 @@ namespace _1_webApi
        public string Title { get; set; }
        public int GenreId { get; set; }
        public int PageCount { get; set; }
-       public DateTime  PuplishDate { get; set; }
+       public DateTime PuplishDate { get; set; }
 
    }
 }
