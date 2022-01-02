@@ -8,7 +8,7 @@ namespace _1_console
     {
         static void Main(string[] args)
         {
-            // Console.WriteLine("Hello World!");
+             // Console.WriteLine("Hello World!");
             // string deneme=Console.ReadLine();
             // Console.WriteLine(!string.IsNullOrEmpty(deneme));
             // Console.WriteLine(true & false);
