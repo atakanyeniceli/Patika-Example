@@ -11,6 +11,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using _1_webApi.DBOperations;
+using Microsoft.EntityFrameworkCore;
 
 namespace _1_webApi
 {
@@ -32,6 +34,7 @@ namespace _1_webApi
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "_1_webApi", Version = "v1" });
             });
+            services.AddDbContext<BookStoreDbContext>(options => options.UseInMemoryDatabase(databaseName:"BookStoreDB"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
