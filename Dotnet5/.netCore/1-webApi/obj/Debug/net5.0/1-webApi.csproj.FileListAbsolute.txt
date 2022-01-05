@@ -60,3 +60,9 @@ C:\Users\ataka\Desktop\Patika-Example\Dotnet5\.netCore\1-webApi\obj\Debug\net5.0
 C:\Users\ataka\Desktop\Patika-Example\Dotnet5\.netCore\1-webApi\obj\Debug\net5.0\ref\1-webApi.dll
 C:\Users\ataka\Desktop\Patika-Example\Dotnet5\.netCore\1-webApi\obj\Debug\net5.0\1-webApi.pdb
 C:\Users\ataka\Desktop\Patika-Example\Dotnet5\.netCore\1-webApi\obj\Debug\net5.0\1-webApi.genruntimeconfig.cache
+C:\Users\atakan\OneDrive\Desktop\Patika-Example\Dotnet5\.netCore\1-webApi\bin\Debug\net5.0\1-webApi.StaticWebAssets.xml
+C:\Users\atakan\OneDrive\Desktop\Patika-Example\Dotnet5\.netCore\1-webApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\atakan\OneDrive\Desktop\Patika-Example\Dotnet5\.netCore\1-webApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\atakan\OneDrive\Desktop\Patika-Example\Dotnet5\.netCore\1-webApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\atakan\OneDrive\Desktop\Patika-Example\Dotnet5\.netCore\1-webApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\atakan\OneDrive\Desktop\Patika-Example\Dotnet5\.netCore\1-webApi\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll

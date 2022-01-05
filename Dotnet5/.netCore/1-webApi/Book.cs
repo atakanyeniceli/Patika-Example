@@ -1,10 +1,11 @@
 using System;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace _1_webApi
 {
    public class Book{
        
-       [DatabaseGenerated()]
+       [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
        public int Id { get; set; }
        public string Title { get; set; }
        public int GenreId { get; set; }
