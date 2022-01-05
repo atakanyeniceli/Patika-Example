@@ -42,7 +42,6 @@ namespace _1_webApi.Controllers
             _context.Books.Add(newBook);
             _context.SaveChanges();
             return Ok();
-
         }
 
         [HttpPut("{id}")]
@@ -53,7 +52,7 @@ namespace _1_webApi.Controllers
             book.GenreId = updatedBook.GenreId != default ? updatedBook.GenreId : book.GenreId;
             book.PageCount = updatedBook.PageCount != default ? updatedBook.PageCount : book.PageCount;
             book.PuplishDate = updatedBook.PuplishDate != default ? updatedBook.PuplishDate : book.PuplishDate;
-            book.Title = updatedBook.Title != default ? updatedBook.Title : book.Title;
+            book.Title = updatedBook.Title ?? book.Title;
             _context.SaveChanges();
             return Ok();
         }
