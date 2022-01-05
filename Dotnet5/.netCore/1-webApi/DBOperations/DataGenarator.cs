@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Linq;
 
 namespace _1_webApi.DBOperations{
-    public class DataGenerator{
+    public static class DataGenerator{
         public static void Initiaze(IServiceProvider serviceProvider){
             using var context = new BookStoreDbContext(serviceProvider.GetRequiredService<DbContextOptions<BookStoreDbContext>>());
             if (context.Books.Any())
