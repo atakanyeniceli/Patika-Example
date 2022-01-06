@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Linq;
+using _2_linq.DbOperatioıns;
+using _2_linq.Entities;
 
 namespace _2_linq
 {
@@ -6,7 +9,9 @@ namespace _2_linq
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            DataGenerator.Initialize();
+            LinqDbContext _context=new LinqDbContext();
+            var student= _context.Students.ToList<Student>();
         }
     }
 }
