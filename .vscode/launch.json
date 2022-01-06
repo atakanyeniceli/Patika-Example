@@ -1,6 +1,7 @@
 {
     "version": "0.2.0",
     "configurations": [
+
         {
             // Use IntelliSense to find out which attributes exist for C# debugging
             // Use hover for the description of the existing attributes
@@ -10,9 +11,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/Dotnet5/c#101/1-console/bin/Debug/net5.0/1-console.dll",
+            "program": "${workspaceFolder}/Dotnet5/.netCore/2-linq/bin/Debug/net5.0/2-linq.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/Dotnet5/c#101/1-console",
+            "cwd": "${workspaceFolder}/Dotnet5/.netCore/2-linq",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false
