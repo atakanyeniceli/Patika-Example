@@ -11,9 +11,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/Dotnet5/.netCore/2-linq/bin/Debug/net5.0/2-linq.dll",
+            "program": "${workspaceFolder}/Dotnet5/.netCore/2-linq/bin/Debug/net5.0/2",
             "args": [],
-            "cwd": "${workspaceFolder}/Dotnet5/.netCore/2-linq",
+            "cwd": "${workspaceFolder}/Dotnet5/.netCore/1-webApi",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false
