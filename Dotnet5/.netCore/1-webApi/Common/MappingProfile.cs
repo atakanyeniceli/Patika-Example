@@ -6,7 +6,6 @@ namespace _1_webApi.Common{
         public MappingProfile(){
             //ilk parametre source ikincisi target yani CretaBookModel Booka dönüştürülebilsin. 
             CreateMap<CreateBookModel,Book>();
-            CreateMap<>()
             
         }
     }
