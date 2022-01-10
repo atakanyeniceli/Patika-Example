@@ -7,6 +7,7 @@ using _1_webApi.BooksOperations.GetBookDetail;
 using _1_webApi.BooksOperations.CreateBook;
 using _1_webApi.BooksOperations.UpdateBook;
 using _1_webApi.BooksOperations.DeleteBook;
+using AutoMapper;
 
 namespace _1_webApi.Controllers
 {
@@ -14,6 +15,7 @@ namespace _1_webApi.Controllers
     [Route("[controller]s")]
     public class BookController:ControllerBase{
         private readonly BookStoreDbContext _context;
+        private readonly IMapper _mapper;
         public BookController(BookStoreDbContext context){
             _context=context;
         }
@@ -40,7 +42,7 @@ namespace _1_webApi.Controllers
 
         [HttpPost]
         public IActionResult AddBook([FromBody] CreateBookModel newBook){
-            CreateBookCommand command=new(_context);
+            CreateBookCommand command=new(_context,_mapper);
             try{
                 command.Model=newBook;
                 command.Handle();

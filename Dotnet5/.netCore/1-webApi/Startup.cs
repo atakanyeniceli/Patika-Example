@@ -13,6 +13,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using _1_webApi.DBOperations;
 using Microsoft.EntityFrameworkCore;
+using System.Reflection;
 
 namespace _1_webApi
 {
@@ -31,6 +32,7 @@ namespace _1_webApi
             services.AddControllers();
             services.AddSwaggerGen(c =>c.SwaggerDoc("v1", new OpenApiInfo { Title = "_1_webApi", Version = "v1" }));
             services.AddDbContext<BookStoreDbContext>(options => options.UseInMemoryDatabase(databaseName:"BookStoreDB"));
+            services.AddAutoMapper(Assembly.GetExecutingAssembly());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
