@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ptbZrUh7/ohYwFwZBHN+KBLjIUimGbOF7sb6vZi2XHBao9NOcMXYx0JcSlEBONBz4j0ul8A+p1/MlJl+4CJqXQ==",
+  "dgSpecHash": "V8RLhv6hvL1FNixpkH6w/GvGpyOzafdgsAF3H0VJzWU6C2cbAPv5n7FaypU863nXrQLhrnm5RRGwaoHCJdVmVA==",
   "success": true,
   "projectFilePath": "C:\\Users\\atakan\\OneDrive\\Desktop\\Patika-Example\\Dotnet5\\.netCore\\1-webApi\\1-webApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\atakan\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\atakan\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\atakan\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
     "C:\\Users\\atakan\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\atakan\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.6\\microsoft.entityframeworkcore.5.0.6.nupkg.sha512",
     "C:\\Users\\atakan\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.6\\microsoft.entityframeworkcore.abstractions.5.0.6.nupkg.sha512",

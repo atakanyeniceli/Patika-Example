@@ -8,7 +8,7 @@ namespace _1_webApi.BooksOperations.CreateBook{
     public class CreateBookCommand{
         public CreateBookModel Model { get; set; }
         private readonly BookStoreDbContext _dbContext;
-        private  IMapper _mapper;
+        private readonly IMapper _mapper;
         public CreateBookCommand(BookStoreDbContext dbContext, IMapper mapper)
         {
             _dbContext = dbContext;
@@ -23,7 +23,6 @@ namespace _1_webApi.BooksOperations.CreateBook{
                 throw new InvalidOperationException("Kitap zaten mevcut");
 
             //Model i Book a maple
-            
             book=_mapper.Map<Book>(Model);//new();
             // book.Title=Model.Title;
             // book.PuplishDate=Model.PublishDate;
