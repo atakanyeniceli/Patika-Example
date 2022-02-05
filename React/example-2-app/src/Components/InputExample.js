@@ -5,7 +5,6 @@ function InputExample(){
 
     const onChangeInput=(e)=>{
         setForm({...form,[e.target.name]:e.target.value})
-        console.log(e.target.name)
     }
     return(
         <div>
@@ -13,7 +12,7 @@ function InputExample(){
             <input name="name" value={form.name} onChange={onChangeInput}></input>
             <br/>
             Lütfen SoyIsim Giriniz.
-            <input name="surName"value={form.surName} onChange={onChangeInput}></input>
+            <input name="surName" value={form.surName} onChange={onChangeInput}></input>
             <h1>{form.name} {form.surName}</h1>
         </div>
     );
