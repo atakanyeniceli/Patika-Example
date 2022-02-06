@@ -13,10 +13,6 @@ function App() {
 
   useEffect(()=>{
     console.log('Name State Güncellendi.')
-
-
-
-
     return ()=>{}//Unmount burada tetikleniyor.Ayrı bir fonkisyon yok.
   },[name])//Belirtilen state değiştirildiğinde çalışır.
 
