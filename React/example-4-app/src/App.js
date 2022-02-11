@@ -1,8 +1,7 @@
-import A from './Components/A';
-import B from './Components/B';
 import Users from './Components/Users'
-import { Routes, Route, Link } from "react-router-dom";
-import './App.css';
+import User from './Components/User'
+import NotFound from './Components/NotFound'
+import { Routes, Route, Link, useParams } from "react-router-dom";
 
 
 function App() {
@@ -19,6 +18,11 @@ function Main() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
+        <Route path="about/:aboutId" element={<About />} />
+        <Route path="users" element={<Users />}>
+          <Route path=":id" element={<User />} />
+        </Route>
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
   );
@@ -32,21 +36,32 @@ function Home() {
         <p>You can do this, I believe in you.</p>
       </main>
       <nav>
-        <Link to="/about">About</Link>
+        <ul>
+          <li>
+            <Link to="/about/0">About</Link>
+          </li>
+          <li>
+            <Link to="/about/1">About 1</Link>
+          </li>
+          <li>
+            <Link to="/about/2">About 2</Link>
+          </li>
+          <li>
+            <Link to="/users">Users</Link>
+          </li>
+        </ul>
       </nav>
     </>
   );
 }
 
 function About() {
+  const params = useParams();
   return (
     <>
       <main>
         <h2>Who are we?</h2>
-        <p>
-          That feels like an existential question, don't you
-          think?
-        </p>
+        <p>About Id ={params.aboutId}</p>
       </main>
       <nav>
         <Link to="/">Home</Link>
