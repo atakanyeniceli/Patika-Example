@@ -4,14 +4,14 @@ import './App.css';
 
 const Schema = Yup.object().shape({
   firstName: Yup.string()
-    .min(2, 'Too Short!')
-    .max(50, 'Too Long!')
-    .required('Required'),
+    .min(2, 'Çok Kısa!')
+    .max(50, 'Çok Uzun!')
+    .required('Zorunlu'),
   lastName: Yup.string()
-    .min(2, 'Too Short!')
-    .max(50, 'Too Long!')
-    .required('Required'),
-  email: Yup.string().email('Invalid email').required('Required'),
+    .min(2, 'Çok Kısa!')
+    .max(50, 'Çok Uzun!')
+    .required('Zorunlu Alan'),
+  email: Yup.string().email('Lütfen Geçerli bir Email Adresi Giriniz.').required('Zorunlu Alan'),
 });
 function App() {
   const { handleSubmit, handleChange, values, errors, touched, handleBlur } = useFormik({

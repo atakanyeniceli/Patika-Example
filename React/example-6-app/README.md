@@ -1,5 +1,7 @@
 # Subjects
--useState
+-React-memo
+-useMemo
+-useCallBack
 
 # Getting Started with Create React App
 
