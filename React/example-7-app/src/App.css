@@ -1,0 +1,12 @@
+.dark {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+.light{
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
+
