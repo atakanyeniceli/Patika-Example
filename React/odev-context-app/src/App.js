@@ -1,13 +1,16 @@
 import Header from './Components/Header/';
 import Body from './Components/Body/';
-
+import { DataProvider } from './Context/DataContext';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Header></Header>
-      <Body></Body>
+      <DataProvider>
+        <Header></Header>
+        <Body></Body>
+      </DataProvider>
+
     </div>
   );
 }
