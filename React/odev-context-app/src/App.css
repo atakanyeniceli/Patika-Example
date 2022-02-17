@@ -1,8 +1,14 @@
-.App {
-  text-align: center;
+
+
+.main{
+  display: flex;
+  justify-content: space-around;
 }
 
 .card{
-  display: flex;
-  justify-content: space-around;
+  height: 50vh;
+  width: 20vw;
+  border-style: ridge;
+  border-radius: 25px;
+  text-align: center;
 }
