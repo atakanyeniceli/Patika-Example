@@ -1,9 +1,10 @@
-import { createContext, useState } from 'react';
+import { createContext, useState} from 'react';
+
 
 const DataContext = createContext()
 
 export const DataProvider = ({ children }) => {
-    let [data, setData] = useState([])
+    const [data, setData] = useState([])
     const values = {
         data, setData
     }

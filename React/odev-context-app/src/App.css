@@ -1,4 +1,6 @@
-
+body{
+  background-color: #aab0b773;
+}
 
 .main{
   display: flex;
@@ -6,9 +8,60 @@
 }
 
 .card{
-  height: 50vh;
-  width: 20vw;
+  width: 50vw;
   border-style: ridge;
-  border-radius: 25px;
+  border-radius: 2.5em;
   text-align: center;
+}
+
+.dayName{
+  font-size: 100%;
+}
+
+.Temp{
+  margin-top: 2%;
+  font-size: 100%;
+}
+
+.dataView{
+  display: flex; 
+  justify-content: space-between;
+}
+
+.leftIcon{
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-between;
+}
+.leftIcon div{
+  font-size: 100%;
+  margin: 0 10px;
+}
+
+.iconDiv{
+  width: 50%;
+}
+.iconDiv img{
+  height: 100%;
+  width: auto;
+}
+
+.rightIcon{
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-between;
+}
+.rightIcon div{
+  font-size: 100%;
+  margin: 0 10px;
+}
+
+.weekly{
+  display: flex;
+  justify-content: space-around;
+}
+
+img{
+  height: 100%;
+  width: auto;
 }
