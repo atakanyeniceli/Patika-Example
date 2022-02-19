@@ -13,10 +13,11 @@ const defaultData = {
     feelsLike: { day: '', night: '', eve: '', morn: '' },
     icon: { url: '', description: '' }
 }
+
 function Body() {
     const { data } = useContext(DataContext)
-    useEffect(() => { data.length > 0 ? setCurrentData(data[0]) : setCurrentData(defaultData) }, [data])
     const [currentData, setCurrentData] = useState(defaultData)
+    useEffect(() => { data.length > 0 ? setCurrentData(data[0]) : setCurrentData(defaultData) }, [data])
 
     return (
         <div className='main' >
@@ -41,6 +42,7 @@ function Body() {
 
             </div>)} */}
             <div className='card' >
+                {console.log(currentData)}
                 <div className='dayName'><span>{currentData.dateTime}</span></div>
                 <div className='Temp'><span >{currentData.temp.day}</span></div>
                 <div className='dataView'>
@@ -57,24 +59,28 @@ function Body() {
                     <div className='iconDiv'><img src={currentData.icon.url} alt={currentData.icon.description} /></div>
                     <div className='rightIcon'>
                         <div>
-                            <span >{currentData.temp.min}</span>
+                            <i className='wi wi-day-sunny'></i>
+                            <span >{currentData.temp.day}</span>
                             <i className='wi wi-celsius'></i>
                         </div>
                         <div>
-                            <span>{currentData.temp.max}</span>
+                            <i className='wi wi-night-clear'></i>
+                            <span>{currentData.temp.night}</span>
                             <i className='wi wi-celsius'></i>
                         </div>
                     </div>
                 </div>
-                <hr />
                 <div className='weekly'>
-                    <div>1</div>
-                    <div>2</div>
-                    <div>3</div>
-                    <div>4</div>
-                    <div>5</div>
-                    <div>6</div>
-                    <div>7</div>
+                    {data.map((day, index) => <div className='dailyData' onClick={() => setCurrentData(day)}>
+                        <span>{day.dateTime.slice(0,3)}</span>
+                        <img src={day.icon.url} alt={day.icon.description} />
+                        <div>
+                            <span>{day.temp.max}</span>
+                            <span>{day.temp.min}</span>
+                        </div>
+                    </div>
+
+                    )}
                 </div>
             </div>
         </div >

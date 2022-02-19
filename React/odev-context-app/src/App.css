@@ -12,6 +12,7 @@ body{
   border-style: ridge;
   border-radius: 2.5em;
   text-align: center;
+  overflow: hidden;
 }
 
 .dayName{
@@ -30,38 +31,58 @@ body{
 
 .leftIcon{
   display: flex; 
+  flex: 30%;
   flex-direction: column;
   justify-content: space-between;
 }
 .leftIcon div{
   font-size: 100%;
-  margin: 0 10px;
+  margin: 0 5px;
 }
 
 .iconDiv{
-  width: 50%;
+  flex: 20%;
+  max-width: 30%;
 }
 .iconDiv img{
-  height: 100%;
-  width: auto;
+  height: auto;
+  width: 100%;
 }
 
 .rightIcon{
   display: flex; 
+  flex: 30%;
   flex-direction: column; 
   justify-content: space-between;
 }
 .rightIcon div{
   font-size: 100%;
-  margin: 0 10px;
+  margin: 0 5px;
 }
 
 .weekly{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 0 10px;
+  margin: 1em 0;
 }
 
 img{
   height: 100%;
   width: auto;
+}
+
+.dailyData{
+  display: flex;
+  font-size: 50%;
+  flex-direction: column;
+  width: 10%;
+}
+.dailyData img{
+  width: 100%;
+  height: auto;
+}
+.dailyData div{
+  display: flex;
+  flex-direction: column;
 }
