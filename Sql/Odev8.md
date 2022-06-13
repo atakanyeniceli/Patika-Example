@@ -113,6 +113,7 @@
      Update  employee Set id=2, birthday='2022-12-21', email='aaa@aaa.com' where name='Atakan'
      Update  employee Set id=3, name='Atakan', email='aaa@aaa.com' where birthday='2022-12-21'
      Update  employee Set id=4, name='Atakan', birthday='2022-12-21' where email='aaa@aaa.com'
+     
 # Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım.
      Delete From employee where id=1
      Delete From employee where name='Atakan'
