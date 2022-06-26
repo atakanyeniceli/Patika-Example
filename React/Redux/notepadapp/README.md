@@ -1,6 +1,6 @@
 # Used technologies
--Redux
--TailwindCss
+-Redux\
+-TailwindCss\
 -Typescript
 
 
