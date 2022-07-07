@@ -1,10 +1,45 @@
 {
   "version": 2,
-  "dgSpecHash": "1fLvfVbg3Cn9rhgv2T0W8qsUSj6IF2GoR64DcHj/0df/taeqxKmMECE8B0pPtZAu89jWI45316owHi4nSG1tEA==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\atakan\\OneDrive\\Desktop\\Patika-Example\\Dotnet5\\c#101\\1-console\\1-console.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\atakan\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
-  ],
-  "logs": []
+  "dgSpecHash": "bAbbF/XBHsYJV0mL3QzaXb9LsKulSr6m2KZFTU26Tv6kmITOr6elDMMfrp/eEBGpV8CFbD8FIa+0wJSluBHCIQ==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\ataka\\Desktop\\Patika.Com\\Dotnet5\\c#101\\1-console\\1-console.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.NETCore.App.Ref. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.NETCore.App.Ref",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.WindowsDesktop.App.Ref. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.WindowsDesktop.App.Ref",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.AspNetCore.App.Ref. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.AspNetCore.App.Ref",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.NETCore.App.Host.win-x64. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.NETCore.App.Host.win-x64",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }
